@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 3rem;
+} 
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 1s;
+    font-size: 2rem;
+}
+a:hover{
+    color: rgb(182, 33, 58);
+}
